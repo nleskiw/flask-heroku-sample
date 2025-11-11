@@ -1,0 +1,9 @@
+region             = "us-east-2"
+repository_name    = "nleskiw/flask-heroku-sample"
+ecs_cluster_name   = "flask-heroku-sample-cluster"
+ecs_task_family    = "flask-heroku-sample-task"
+ecr_repository_url = "096212910348.dkr.ecr.us-east-2.amazonaws.com/nleskiw/flask-heroku-sample"
+ecs_service_name   = "flask-heroku-sample-svc"
+vpc_id             = "vpc-0cc56fb07bb650eb0"
+public_subnet_ids  = ["subnet-01f70f3898d745ed5", "subnet-01f70f3898d745ed5", "subnet-0ec75d3456a647020"]
+container_port     = 8000
